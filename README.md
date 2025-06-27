@@ -12,13 +12,9 @@ Perfect for VPS or Linux server users who want to run a Nexus node without compl
 
 - ✅ Instalasi otomatis dependensi (Rust, build tools, Nexus CLI)  
 - ✅ Jalankan Nexus Node hanya dengan Node ID  
-- ✅ Tanpa wallet address / login  
-- ✅ Jalan terus tanpa timeout
 
 Auto-installs dependencies (Rust, build tools, Nexus CLI)  
 Run Nexus Node by simply entering your Node ID  
-No wallet address or login required  
-Runs continuously without auto-exit
 
 ---
 
