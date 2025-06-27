@@ -27,7 +27,7 @@ else
   export PATH="$HOME/.cargo/bin:$HOME/.nexus/bin:$PATH"
 fi
 
-read -p "🧠 Masukkan Node ID: " NODE_ID
+read -p "Masukkan Node ID: " NODE_ID
 if [[ -z "$NODE_ID" ]]; then
   echo "❌ Node ID tidak boleh kosong."
   exit 1
