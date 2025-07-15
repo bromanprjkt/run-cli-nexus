@@ -47,7 +47,7 @@ read -p "Masukkan pilihan (1/2): " INSTALL_METHOD
 
 if [[ "$INSTALL_METHOD" == "1" ]]; then
   echo "📥 Clone dan build manual Nexus CLI..."
-  git clone git@github.com:nexus-xyz/nexus-cli.git
+  git clone https://github.com/nexus-xyz/nexus-cli.git
   cd nexus-cli/clients/cli || exit 1
   cargo build --release
   cd -
