@@ -1,18 +1,37 @@
+<p align="center">
+  <a href="https://docs.nexus.xyz/layer-1/testnet/cli-node" target="_blank">
+    <img src="nexus.png" width="100" alt="Nexus Logo" />
+  </a>
+</p>
 
-## ⚙️ Fitur / Features
-
-- ✅ Instalasi otomatis dependensi (Rust, build tools, Nexus CLI)  
-- ✅ Jalankan Nexus Node hanya dengan Node ID  
-
-Auto-installs dependencies (Rust, build tools, Nexus CLI)  
-Run Nexus Node by simply entering your Node ID  
+<h1 align="center">Nexus CLI Node Runner</h1>
+<p align="center">
+  Automated setup for Nexus CLI Node — tailored for Linux & macOS.<br>
+  Setup sekali jalan, jalankan node cuma dengan Node ID.
+</p>
 
 ---
 
-## 🚀 Cara Pakai / How to Use
+## ⚙️ Features / Fitur
 
-```bash
-git clone https://github.com/bromanprjkt/run-cli-nexus.git
-cd run-cli-nexus
-chmod +x nexus.sh
-./nexus.sh
+- ✅ Auto-install Rust, build tools, and Nexus CLI  
+  ✅ Instalasi otomatis Rust, build tools, dan Nexus CLI
+
+- ✅ Run Nexus Node with just your Node ID  
+  ✅ Jalankan Nexus Node hanya dengan Node ID
+
+- ✅ Supports Linux & macOS  
+  ✅ Mendukung Linux dan macOS
+
+---
+
+## 🚀 Usage / Cara Pakai
+
+1. Clone this repository  
+   Clone repositori ini:
+
+   ```bash
+   git clone https://github.com/bromanprjkt/run-cli-nexus.git
+   cd run-cli-nexus
+   chmod +x nexus.sh
+   ./nexus.sh
